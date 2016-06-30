@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app = 'myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>angular factory/routing</title>
+    <script type = 'text/javascript'src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+    <script src="/assets/client.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Header</h1>
+    <div ng-include="'views/partials/nav.html'"></div>
+    <main ng-view></main>
+
+    <h3>Footer</h3>
+  </body>
+</html>
